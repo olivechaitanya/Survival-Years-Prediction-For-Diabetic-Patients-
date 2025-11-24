@@ -1,6 +1,8 @@
 # Glucose Predictor Pro
 
-Streamlit dashboard that predicts survival years for diabetic patients and simulates post‑meal glucose impact. The app runs entirely in `app.py` and trains both RandomForest and XGBoost models on `IDPdataset_9000.csv`, while the nutrition simulator uses `data/indian_food_gi.csv` plus medication inputs to show projected glucose curves.
+Live demo: https://olivechaitanya-survival-years-prediction-for-diabeti-app-pegkt2.streamlit.app/
+
+Streamlit dashboard that predicts survival years for diabetic patients and simulates post‑meal glucose impact. The app runs entirely in `app.py` and trains both RandomForest and XGBoost models on[...] 
 
 ## Features
 - **Automated EDA** – dataset preview, summary stats, missingness heatmap, correlation matrix, and feature importance.
@@ -39,4 +41,3 @@ streamlit run app.py
 ```
 
 Feel free to open an issue or tweak the models/visuals to suit your deployment.
-
